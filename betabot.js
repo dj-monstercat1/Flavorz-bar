@@ -47,7 +47,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/dj-monstercat/Flavorz-bot1/master/langIndex.json", function (json) {
+        $.get("https://rawgit.com/dj-monstercat1/Flavorz-bar/master/langIndex.json", function (json) {
             var link = trapbot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -173,19 +173,19 @@
     var trapbot = {
         version: "1",
         status: false,
-        name: "Flavorz-bot1",
+        name: "Flavorz-bar",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/dj-monstercat/Flavorz-bot1/master/Bot.js",
+        scriptLink: "https://rawgit.com/dj-monstercat1/Flavorz-bar/master/Bot.js",
         cmdLink: "http://goo.gl/qPOuYn",
-        chatLink: "https://rawgit.com/dj-monstercat/Flavorz-bot1/master/en.json",
+        chatLink: "https://rawgit.com/dj-monstercat1/Flavorz-bar/master/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "EF-Bot",
+            botName: "Flavorz bar",
             language: "english",
-            chatLink: "https://rawgit.com/dj-monstercat/Flavorz-bot1/master/en.json",
+            chatLink: "https://rawgit.com/dj-monstercat1/Flavorz-bar/master/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
@@ -224,7 +224,7 @@
             opLink: "",
             rulesLink: "",
             themeLink: null,
-            fbLink: "",
+            fbLink: "http://goo.gl/CAjtBf",
             youtubeLink: null,
             website: "",
             intervalMessages: [],
@@ -250,7 +250,7 @@
             autodisableInterval: null,
             autodisableFunc: function () {
                 if (trapbot.status && trapbot.settings.autodisable) {
-                    API.sendChat('We have commands, do you want to know wich? Type !commands');
+                    API.sendChat('fallow us on twitter: http://goo.gl/CAjtBf');
                 }
             },
             queueing: 0,
