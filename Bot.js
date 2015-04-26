@@ -183,7 +183,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Flavorz bar",
+            botName: "",
             language: "english",
             chatLink: "https://rawgit.com/dj-monstercat1/Flavorz-bar/master/en.json",
             maximumAfk: 120,
