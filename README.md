@@ -1,2 +1,2 @@
 # Flavorz-bar
-`javascript:(function(){$.getScript('https://rawgit.com/dj-monstercat/Flavorz-bot1/master/Bot.js');})();`
+`javascript:(function(){$.getScript('https://rawgit.com/dj-monstercat1/Flavorz-bar/master/Bot.js');})();`
