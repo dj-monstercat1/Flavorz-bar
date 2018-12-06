@@ -47,7 +47,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/dj-monstercat1/Flavorz-bar/master/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/dj-monstercat1/Flavorz-bar/langIndex.json", function (json) {
             var link = trapbot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -175,9 +175,9 @@
         status: false,
         name: "Flavorz-bar",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/dj-monstercat1/Flavorz-bar/master/Bot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/dj-monstercat1/Flavorz-bar/Bot.js",
         cmdLink: "http://goo.gl/qPOuYn",
-        chatLink: "https://rawgit.com/dj-monstercat1/Flavorz-bar/master/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/dj-monstercat1/Flavorz-bar/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -185,7 +185,7 @@
         settings: {
             botName: "",
             language: "english",
-            chatLink: "https://rawgit.com/dj-monstercat1/Flavorz-bar/master/en.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/dj-monstercat1/Flavorz-bar/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
